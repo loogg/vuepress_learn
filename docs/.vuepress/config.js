@@ -8,6 +8,7 @@ module.exports = {
       href: '/hero.png'
     }] // 需要被注入到当前页面的 HTML <head> 中的标签
   ],
+  theme: 'vuepress-theme-maker',
   themeConfig: {
     logo: '/hero.png',
     nav: [
