@@ -15,7 +15,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.PAGES }}
-        TARGET_REPO: loogg/vuepress_learn
+        TARGET_REPO: loogg/vuepress_v1_learn
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: npm install && npm run docs:build
         BUILD_DIR: docs/.vuepress/dist

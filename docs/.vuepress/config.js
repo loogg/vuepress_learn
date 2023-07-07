@@ -1,7 +1,7 @@
 module.exports = {
   title: '马龙伟', // 网站的标题
   description: '马龙伟测试网页', // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
-  base: '/vuepress_learn/',
+  base: '/vuepress_v1_learn/',
   head: [
     ['link', {
       rel: 'icon',
