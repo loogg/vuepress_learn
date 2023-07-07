@@ -8,15 +8,12 @@ module.exports = {
       href: '/hero.png'
     }] // 需要被注入到当前页面的 HTML <head> 中的标签
   ],
-  theme: 'vuepress-theme-maker',
+  theme: 'vuepress-theme-qblog',
   themeConfig: {
     logo: '/hero.png',
     nav: [
-      // 直接跳转，'/'为不添加路由，跳转至首页，以/结尾的最终对应的都是/index.html,也就是README.md文件编译后的页面
-      {
-        text: 'Home',
-        link: '/'
-      },
+
+
       // 对应blog/fontend/README.md
       {
         text: '前端',
