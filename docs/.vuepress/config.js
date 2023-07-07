@@ -1,6 +1,6 @@
 module.exports = {
-  title: '穆瑾轩', // 网站的标题
-  description: '穆瑾轩测试网页', // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
+  title: '马龙伟', // 网站的标题
+  description: '马龙伟测试网页', // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中。
   head: [
     ['link', {
       rel: 'icon',
@@ -62,5 +62,8 @@ module.exports = {
     ],
     sidebarDepth: 2,
     lastUpdated: 'Last Updated',
+
+    search: false, // 设置是否使用导航栏上的搜索框
+    searchMaxSuggestions: 10  // 搜索框显示的搜索结果数量
   }
 }
